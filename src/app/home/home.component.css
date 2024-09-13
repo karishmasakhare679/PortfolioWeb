@@ -1,0 +1,21 @@
+.google-plus .download_btn {
+    display: none;
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 10px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px); /* Slight upward movement */
+}
+
+
+.google-plus:hover .download_btn {
+    display: inline-block;
+    opacity: 1;
+    transform: translateY(0); /* Move to normal position */
+}
